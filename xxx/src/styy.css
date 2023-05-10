@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.img__text__icon{
+    margin-right: 25px;
+}
+.select{
+    border: none;
+    outline: none;
+}
+nav a {
+    text-decoration: none;
+    color: #303239;
+    margin: 0 25px 0;
+}
+.menu__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__nav button{
+    position: relative;
+    right: 40px;
+}
+.img__icon__pr{
+    margin: 0 5px 0;
+}
+
+/* main///////////////////////////////////////////////// */
+
+.figure__baner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px ;
+}
+.I__text__f-50{
+    font-size: 45px;
+    font-weight: 600;
+    color: #18154B;
+    text-transform: uppercase;
+    padding: 100px 0 0 180px;
+}
+.I__text__f-40{
+    font-size: 45px;
+    font-weight: 600;
+    color: #18154B;
+    text-transform: uppercase;
+    padding: 10px 0 0 180px;
+}
+.primushestva__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* card/////////////////////////// */
+
+.menu__grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.menu__grid2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
